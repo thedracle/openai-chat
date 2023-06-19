@@ -1,0 +1,13 @@
+[package]
+name = "openai-terminal-chat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "4.2.7"
+cursive = "0.20.0"
+openai = { git = "https://github.com/jthomas-dd/openai.git" }
+parking_lot = "0.12.1"
+tokio = { version = "1.26.0", features = ["full"] }
